@@ -154,3 +154,5 @@ export const renderApp = (url, serverContext, preloadedState, collectChunks) => 
   const { helmet: head } = helmetContext;
   return { head, body };
 };
+
+console.log('hello');

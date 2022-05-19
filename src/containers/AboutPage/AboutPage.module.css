@@ -7,7 +7,7 @@
 
 .staticPageWrapper {
   width: calc(100% - 48px);
-  max-width: 1056px;
+  max-width: 1289px;
   margin: 24px auto;
 
   @media (--viewportMedium) {
@@ -30,6 +30,7 @@
 
   @media (--viewportMedium) {
     flex-wrap: nowrap;
+    margin: auto;
   }
 }
 

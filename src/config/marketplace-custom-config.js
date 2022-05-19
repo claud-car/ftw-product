@@ -57,7 +57,7 @@ export const filters = [
   },
   {
     id: 'size',
-    label: 'Size (US)',
+    label: 'Size (EU)',
     type: 'SelectMultipleFilter',
     group: 'primary',
     queryParamNames: ['pub_size'],
@@ -73,15 +73,15 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: '4', label: '4' },
-        { key: '5', label: '5' },
-        { key: '6', label: '6' },
-        { key: '7', label: '7' },
-        { key: '8', label: '8' },
-        { key: '9', label: '9' },
-        { key: '10', label: '10' },
-        { key: '11', label: '11' },
-        { key: '12', label: '12' },
+        { key: '30', label: '30' },
+        { key: '32', label: '32' },
+        { key: '34', label: '34' },
+        { key: '36', label: '36' },
+        { key: '38', label: '38' },
+        { key: '40', label: '40' },
+        { key: '42', label: '42' },
+        { key: '44', label: '44' },
+        { key: '46', label: '46' },
       ],
     },
   },

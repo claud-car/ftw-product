@@ -79,7 +79,8 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
-  margin-bottom: 18px;
+  max-width: 1289px;
+  margin: 0 auto 18px;
 
   @media (--viewportMedium) {
     flex-wrap: nowrap;

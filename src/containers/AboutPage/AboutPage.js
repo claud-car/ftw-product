@@ -38,7 +38,8 @@ const AboutPage = () => {
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
           <h1 className={css.pageTitle}>There's no such thing as too many sneakers.</h1>
-          <img className={css.coverImage} src={image} alt="My first ice cream." />
+          {/* <img className={css.coverImage} src={image} alt="My first ice cream." /> */}
+          <iframe className={css.frameCursor} width="100%" height="600px" allowfullscreen="" src="https://my.matterport.com/show/?m=LR54yz9SDcA&amp;play=1&amp;help=0&amp;wh=1&amp;f=1&amp;title=0&amp;tourcta=0" frameborder="0"></iframe>
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
